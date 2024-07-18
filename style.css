@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+body{
+    background-color:white;
+    overflow:hidden;
+    overflow-y:auto;
+}
+.nav{
+    background-color:White;
+}
+
+.navi img{
+    width:70px;
+    height:70px;
+    background-color: white;
+  
+}
+.elements a{
+    color:#0068b5;
+    font-size: 14px;
+   
+
+}
+.lang-box{
+    color:#0068b5;
+}
+.links{
+    margin-right: 10px;
+}
+.journey{
+    font-size:70px;
+}
+.lap1 img{
+    width:750px;
+    transform:translateY(-7%);
+}
+.exp{
+
+}
+.lap1{
+    z-index:1
+}
+.section1{
+    margin-top:100px
+}
+@media(max-width:920px){
+    .lap1{
+     
+       
+    }
+    .lap1 img{
+        width:450px
+    }
+    .lap11{
+        
+    }
+}
+@media(max-width:1340px){
+    .lap11{
+        width:120px
+    }
+}
+@media(max-width:600px){
+    .lap1{
+       
+    }
+}
+.lap3 img{
+    width:120px;
+    height:80px;
+    background-color: rgb(128, 123, 123);
+}
+.lap3{
+   
+}
+.lap21{
+    margin-right:200px;
+}
+.ai{
+    background-color: rgb(66, 65, 65);
+}
+.grid-item {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding:20px 10px;
+    margin:px;
+    border-radius: 1px;
+}
+.grid-item h4, .grid-item p {
+    margin: 10px;
+
+}
+.grid-item1 .explore-btn {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 1px;
+    text-decoration: none;
+}
+.grid-item1 {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding:20px 10px;
+    margin:px;
+    border-radius: 1px;
+}
+.grid-item1 h4, .grid-item p {
+    margin: 10px;
+
+}
+@media(max-width:1000px){
+    .grid-item{
+        
+    }
+}
+.footer{
+    margin-top:150px
+}
+.item1 img{
+    height:40px;
+    width:90px;
+    
+}
+
+.foot1{
+    justify-content: center;
+}
+.foot3 a{
+    text-decoration: none;
+    color:black;
+    font-size:13px
+}
+.intelcorp{
+    font-size: 13px;
+}
+.bottom-f{
+    font-size: 13px;
+}
+@media(max-width:925px) and ( min-width:765px){
+    .tools .grid-item{
+        display:none
+    }
+}
+@media(max-width:925px){
+    .media p{
+        margin-right:10px;
+    }
+}
+@media(max-width:780px){
+    .tools .dev{
+    }
+}
+
+.cont{
+    background-color: rgb(240, 237, 237);
+}
+@media(max-width:970px){
+    .lang-box i{
+        display:none;
+    }
+}
